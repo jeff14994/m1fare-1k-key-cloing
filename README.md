@@ -10,7 +10,7 @@ Double check with the following command, if it works it's a gen2 card:
 ## This is the code for gen2 card (if you are using gen1 bascially csetuid will work)
 ## Two important files needed to be acquired
 1. the find_keys -> can get it by pm3 `hf mf autopwn`
-	- the find_keys format should be something like [this](./example/find_keys)
+	- the find_keys format should be something like [this](./examples/find_keys)
 	and use key A to read and write the data to specific block
 		- e.g key A at Sec 000 is to unlock block0-3
 		- commands: 
