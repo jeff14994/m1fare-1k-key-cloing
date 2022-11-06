@@ -1,0 +1,12 @@
+.gitignore.swp
+*.eml
+*.bin
+*.json
+create_920_fob.sh
+**/dump
+gen2card_create_920_fob.sh
+find_keys
+parse_dump
+parsed_keys
+parsed_keys_backup
+parsed_keys_middle
