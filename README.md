@@ -39,7 +39,8 @@ This project is to clone data to either gen1 or gen2 devices.
 	- parse the [data](./examples/dump_data.md) dumped from pm3 
 	- Input: `dump_data`, output: `parse_dump`
 3. `parse_keys.sh`
-	- Input the **idential format** of find_keys mentioned [above](./examples/find_keys.md) 
+	- parse the key dumped from pm3
+		- Remember to input the **idential format** of find_keys mentioned [here](./examples/find_keys.md) 
 	- Input: `find_keys`, outpus: `parsed_keys`
 4. `gen2card_clone_key_fob.sh`
 	- Clone the key fob
