@@ -1,5 +1,6 @@
 # Write data to blocks based on the key provided
-# How to distinguish if the card is either gen1 or gen2?
+This project is to clone data to either gen1 or gen2 card
+# How to distinguish if the card to be written is either gen1 or gen2?
 Use this command to check if it's a gen1 card
 This could be a gen2 card if cgetblk command is not working
 	- [usb] pm3 --> hf mf cgetblk --blk 0
@@ -10,7 +11,7 @@ Double check with the following command, if it works it's a gen2 card:
 ## This is the code for gen2 card (if you are using gen1 bascially csetuid will work)
 ## Two important files needed to be acquired
 1. the find_keys -> can get it by pm3 `hf mf autopwn`
-	- the find_keys format should be something like [this](./examples/find_keys)
+	- the find_keys format should be something like [this example](./examples/find_keys.md)
 	and use key A to read and write the data to specific block
 		- e.g key A at Sec 000 is to unlock block0-3
 		- commands: 
@@ -24,7 +25,7 @@ if the key fob is not able to unlock the door(and the reader show yellow light),
 ## How to use?
 - Connect with pm3
 - parse_dump
-	- parse the data dumped from pm3 
+	- parse the data dumped from pm3, see [this example](./examples/dump_data.md)
 - parse_keys.sh
 	- Input the **idential** format of find_keys mentioned above 
 - gen2card_clone_key_fob.sh
