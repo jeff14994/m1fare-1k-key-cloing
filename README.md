@@ -33,7 +33,7 @@ This project is to clone data to either gen1 or gen2 devices.
 			- READ: `hf mf rdbl --blk 0 -k ffffffffffff` ~ `hf mf rdbl --blk 3 -k ffffffffffff`
 			- WRITE: `hf mf wrbl --blk 0 -k ffffffffffff -d 0102030405` ~ `hf mf wrbl --blk 3 -k ffffffffffff -d 0102030405`
 2. The filename: `dump_data` -> we can get it by dumping from the key fob you want to clone with `hf mf dump`. And the format should be similar as [this example](./examples/dump_data.md)
-#### How to use?
+#### How to use? [Code base](./gen2_card/ring_with_specific_key_A)
 1. Connect with pm3
 2. `parse_dump.sh`
 	- parse the [data](./examples/dump_data.md) dumped from pm3 
