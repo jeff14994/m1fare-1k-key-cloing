@@ -3,7 +3,7 @@ This project is to clone data to either gen1 or gen2 devices.
 ## How to distinguish if the device to be written is either gen1 or gen2?
 ```
 # In pm3, Use this command to check if it's a gen1 card
-This could be a gen2 card if cgetblk command is not working
+# This could be a gen2 card if cgetblk command is not working
 [usb] pm3 --> hf mf cgetblk --blk 0
 [#] wupC1 error
 [!!] 🚨 Can't read block. error=-1
@@ -16,7 +16,13 @@ This could be a gen2 card if cgetblk command is not working
 1. Dump the file from the the key fob you want to clone by pm3
 2. [Run this command](./gen1_card/clone_key.sh)
 ## This is the code for gen2 device (if you are using gen1 bascially csetuid will work)
-### Two important files needed to be created
+### There are two situation you might meet in gen2 device
+1. key A is all `FFFFFFFFFFFF`
+- [Run this command](./gen1_card/clone_key.sh)
+	- the filename: `/hf-mf-XXXXXXXX-dump.bin` is the dump binary from pm3 using command `hf mf dump`
+	- XXXXXXXX is the uid
+2. key A is random in each sector, follow the instructions below
+#### Two important files needed to be created
 1. The filename: `find_keys` -> can get it by pm3 with command `hf mf autopwn`
 	- the `find_keys` format should be similar as [this example](./examples/find_keys.md). We are using key A to read and write the data to specific block
 		- e.g key A at `Sec 000` is to unlock `block0-3` and so on
