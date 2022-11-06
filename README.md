@@ -10,28 +10,7 @@ Double check with the following command, if it works it's a gen2 card:
 ## This is the code for gen2 card (if you are using gen1 bascially csetuid will work)
 ## Two important files needed to be acquired
 1. the find_keys -> can get it by pm3 `hf mf autopwn`
-	- the find_keys format should be something like this
-	[+] |-----|----------------|---|----------------|---|
-	[+] | Sec | key A          |res| key B          |res|
-	[+] |-----|----------------|---|----------------|---|
-	[+] | 000 | ffffffffffff   | N | ffffffffffff   | D |
-	[+] | 001 | ffffffffffff   | N | ffffffffffff   | D |
-	[+] | 002 | ffffffffffff   | D | ffffffffffff   | D |
-	[+] | 003 | ffffffffffff   | D | ffffffffffff   | D |
-	[+] | 004 | ffffffffffff   | R | ffffffffffff   | D |
-	[+] | 005 | ffffffffffff   | R | ffffffffffff   | D |
-	[+] | 006 | ffffffffffff   | R | ffffffffffff   | D |
-	[+] | 007 | ffffffffffff   | D | ffffffffffff   | D |
-	[+] | 008 | ffffffffffff   | D | ffffffffffff   | D |
-	[+] | 009 | ffffffffffff   | D | ffffffffffff   | D |
-	[+] | 010 | ffffffffffff   | D | ffffffffffff   | D |
-	[+] | 011 | ffffffffffff   | D | ffffffffffff   | D |
-	[+] | 012 | ffffffffffff   | D | ffffffffffff   | D |
-	[+] | 013 | ffffffffffff   | D | ffffffffffff   | D |
-	[+] | 014 | ffffffffffff   | D | ffffffffffff   | D |
-	[+] | 015 | ffffffffffff   | D | ffffffffffff   | D |
-	[+] |-----|----------------|---|----------------|---|
-	[=] ( D:Dictionary / S:darkSide / U:User / R:Reused / N:Nested / H:Hardnested / C:statiCnested / A:keyA  )
+	- the find_keys format should be something like [this](./example/find_keys)
 	and use key A to read and write the data to specific block
 		- e.g key A at Sec 000 is to unlock block0-3
 		- commands: 
