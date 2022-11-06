@@ -25,7 +25,7 @@ This project is to clone data to either gen1 or gen2 devices.
 		- connect to pm3 before running this command 
 2. If key A is random in each sector, follow the instructions below
 ### key A is random in each sector
-#### Two important files needed to be created
+#### Two important files are needed to be created
 1. The filename: `find_keys` -> can get it by pm3 with command `hf mf autopwn`
 	- the `find_keys` format should be similar as [this example](./examples/find_keys.md). We are using key A to read and write the data to specific block
 		- e.g key A at `Sec 000` is to unlock `block0-3` and so on
