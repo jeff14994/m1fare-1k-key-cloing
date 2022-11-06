@@ -17,13 +17,13 @@ This project is to clone data to either gen1 or gen2 devices.
 2. [Run this command](./gen1_card/clone_key.sh)
 	- the filename: `/hf-mf-XXXXXXXX-dump.bin` is the dump binary from pm3 using command `hf mf dump`
 	- `XXXXXXXX` is the uid you can get it when dumping data with pm3
-## gen2 device (if you are using gen1 bascially csetuid will work)
+## gen2 devices 
 ### There are two situations you might meet in gen2 device
-1. key A is all `FFFFFFFFFFFF`
+1. If key A is all `FFFFFFFFFFFF`
 	- Create the filename: `dump_data` -> we can get it by dumping from the key fob you want to clone with `hf mf dump`. And the format should be similar as [this example](./examples/dump_data.md)
 	- [Run this command](./gen2_card/ring_with_all_key_A_FFFFFFFFFFFF/gen2card_clone.sh)
 		- connect to pm3 before running this command 
-2. key A is random in each sector, follow the instructions below
+2. If key A is random in each sector, follow the instructions below
 ### key A is random in each sector
 #### Two important files needed to be created
 1. The filename: `find_keys` -> can get it by pm3 with command `hf mf autopwn`
