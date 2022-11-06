@@ -20,7 +20,7 @@ This project is to clone data to either gen1 or gen2 devices.
 ## gen2 devices 
 ### There are two situations you might meet in gen2 device
 1. If key A is all `FFFFFFFFFFFF`
-	- Create the filename: `dump_data` -> we can get it by dumping from the key fob you want to clone with `hf mf dump`. And the format should be similar as [this example](./examples/dump_data.md)
+	- Create the file with filename: `dump_data` -> we can get it by dumping from the key fob you want to clone with `hf mf dump`. And the format should be similar as [this example](./examples/dump_data.md)
 	- [Run this command](./gen2_card/ring_with_all_key_A_FFFFFFFFFFFF/gen2card_clone.sh)
 		- connect to pm3 before running this command 
 2. If key A is random in each sector, follow the instructions below
