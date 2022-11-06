@@ -4,6 +4,7 @@
 *.json
 create_920_fob.sh
 **/dump
+dump_data
 gen2card_create_920_fob.sh
 find_keys
 parse_dump
