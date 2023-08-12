@@ -1,7 +1,16 @@
 # Clone data to either gen1 or gen2 devices 
 This project is to clone data to either gen1 or gen2 devices.
+- Clone my apartment key fob - works like a charm :)
+![Demo](./demo/demo1.gif)
+- Relay the key fob to another device - works like a charm :)
+![Demo](./demo/demo2.gif)
+- Card I've test to work - spent pretty much of time and effort
+	- ![Demo](./demo/demo3.gif)
+## Tools I used
+pm3 bought from  Amazon
+![Demo](./demo/demo4.jpg)
 
-# Why this project?
+##  Why this project?
 The primary goal of this project is to facilitate the efficient cloning of data onto gen1 or gen2 devices. It offers a systematic approach that begins with differentiating the device generation, dumping necessary data, and executing appropriate commands. The project ensures that users can seamlessly clone their key fobs and offers solutions for common hitches in the process.
 ## How to distinguish if the device to be written is either gen1 or gen2?
 ```
