@@ -1,5 +1,4 @@
-#Clone data to either gen1 or gen2 devices 
-
+# Clone data to either gen1 or gen2 devices 
 This project is to clone data to either gen1 or gen2 devices.
 
 # Why this project?
