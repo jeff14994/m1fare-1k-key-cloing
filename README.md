@@ -4,7 +4,7 @@ This project is to clone data to either gen1 or gen2 devices.
 ![Demo](./demo/demo1.gif)
 - Relay the key fob to another device - works like a charm :)
 ![Demo](./demo/demo2.gif)
-- Card I've test to work - spent pretty much of time and effort
+- Cards I've test to work - spent pretty much of time and effort, but it's a fun adventure
 ![Demo](./demo/demo3.gif)
 ## Tools I used
 pm3 bought from  Amazon
