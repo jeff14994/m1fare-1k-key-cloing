@@ -2,7 +2,7 @@
 This project is to clone data to either gen1 or gen2 devices.
 
 # Why this project?
-1The primary goal of "jeff14994/m1fare-1k-key-cloning" is to facilitate the efficient cloning of data onto gen1 or gen2 devices. It offers a systematic approach that begins with differentiating the device generation, dumping necessary data, and executing appropriate commands. The project ensures that users can seamlessly clone their key fobs and offers solutions for common hitches in the process.
+The primary goal of this project is to facilitate the efficient cloning of data onto gen1 or gen2 devices. It offers a systematic approach that begins with differentiating the device generation, dumping necessary data, and executing appropriate commands. The project ensures that users can seamlessly clone their key fobs and offers solutions for common hitches in the process.
 ## How to distinguish if the device to be written is either gen1 or gen2?
 ```
 # In pm3, Use this command to check if it's a gen1 card
